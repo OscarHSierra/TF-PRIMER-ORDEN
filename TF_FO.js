@@ -21,7 +21,7 @@ function calcular(){
     {
         a=1/(ts.value/4);   
         ganancia=k.value*a;
-        r.innerHTML="La funcion de transferencia del sistema de primer orden es:"+"<br/>"+"<br/>" + "&nbsp&nbsp&nbsp&nbsp"+ ganancia  +"<br/>"+"G(s)=   ----------------"+"<br/>"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"s + "+ a.toFixed(2);
+        r.innerHTML="La funcion de transferencia del sistema de primer orden es:"+"<br/>"+"<br/>" + "&nbsp&nbsp&nbsp&nbsp"+ ganancia.toFixed(2)  +"<br/>"+"G(s)=   ----------------"+"<br/>"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"s + "+ a.toFixed(2);
 
     }
     else
