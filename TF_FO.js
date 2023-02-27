@@ -20,7 +20,7 @@ function calcular(){
     if (ts.value > 0 && k.value>0 )
     {
         a=1/(ts.value/4);   
-        ganancia=k.value;
+        ganancia=k.value*a;
         r.innerHTML="La funcion de transferencia del sistema de primer orden es:"+"<br/>"+"<br/>" + "&nbsp&nbsp&nbsp&nbsp"+ ganancia  +"<br/>"+"G(s)=   ----------------"+"<br/>"+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"s + "+ a.toFixed(2);
 
     }
